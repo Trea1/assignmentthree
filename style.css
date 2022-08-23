@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300%3B400%3B500%3B600%3B700%3B800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-size{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.one{
+    background-color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.two .card{
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 0.1);
+}
+.card img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.card-content{
+    padding: 48px;
+}
+.card-header{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.card-text{
+    font-size: 26px;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+.card-button{
+    display: block;
+    width: 100%;
+    padding: 24px;
+    font-size: 32px;
+    text-align: center;
+    color: #3363ff;
+    background-color: #e6ecff;
+    border: none;
+    border-radius: 6px;
+}
+.card-button{
+    margin-left: 16px;  
+}
+.card-button span{
+    margin-left: 16px;
+}
+@media screen and (max-width: 768px) {
+    .two{
+        flex-direction: column;
+    }
+}
